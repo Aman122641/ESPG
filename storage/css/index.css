@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     animation: mainHeaderAnimation 1s ease-in-out forwards;
-    background-image: url('../../images/backgrounds/IMG_0038.jpeg');
+    background-image: url('../../images/backgrounds/IMG_0040.png');
     background-size: cover;
 }
 
