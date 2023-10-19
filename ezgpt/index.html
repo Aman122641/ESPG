@@ -92,14 +92,15 @@
     <script>
         function openChatGPT() {
             
+            var newWindow = window.open('about:blank');
             var iframe = document.createElement('iframe');
             iframe.src = 'https://bryantgpv2.onrender.com/chat/';
             iframe.style.width = '100vw';
             iframe.style.height = '100vh';
             iframe.style.border = 'none';
             iframe.style.scrolling = 'no'
-            document.body.style.margin = '0';
-            document.body.appendChild(iframe);
+            newWindow.document.body.style.margin = '0';
+            newWindow.document.body.appendChild(iframe);
 
 
         }
